@@ -1,0 +1,29 @@
+// cores//
+
+$color-write:     #ffffff;
+$color-green:     #29ae32;
+$color-marron:    #a4a4a4;
+$color-Black:     #000000;
+
+// media //
+
+$media-mobile-s:  320px;
+$media-mobile-m:  375px;
+$media-mobile-l:  425px;
+$media-table:     768px;
+$media-desktop:   1024px;
+
+// fontes //
+
+@mixin font-title{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+}
+@mixin font-subtitle{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 500;
+}
+@mixin font-paragraf{
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
